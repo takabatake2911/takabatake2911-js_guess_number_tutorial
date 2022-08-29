@@ -1,0 +1,29 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+.result {
+    display: none;
+}
+.result.active {
+    display: block;
+}
+
+.result .message {
+    background-color: red;
+    color: white;
+    padding: 0.2rem;
+}
+
+.result .message.correct {
+    background-color: blue;
+    color: white;
+    padding: 0.2rem;
+}
+
+.result .retry-button {
+    display: none;
+}
+.result .retry-button.active {
+    display: block;
+}
